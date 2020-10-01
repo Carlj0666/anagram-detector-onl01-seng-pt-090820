@@ -16,12 +16,10 @@ class Anagram
      #binding.pry
     if array.select(word.split("").sort) == word.split("").sort
       match_array << word
-      
-    end
+
     match_array
    end
- end
- end
+
 
  
   
