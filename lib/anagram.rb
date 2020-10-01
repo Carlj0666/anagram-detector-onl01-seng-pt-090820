@@ -13,9 +13,8 @@ class Anagram
 
   def match(words)
     container = []
-    #binding.pry
-    words.sort
-  
+    binding.pry
+
     new_word = word.split("").sort
             #binding.pry
     words.each do |check|
