@@ -15,6 +15,7 @@ class Anagram
     match_array = []
     word = word.split("").sort
     array.each do |anagram|
+      anagram.
       if anagram.select(word)
       match_array << word
       match_array
