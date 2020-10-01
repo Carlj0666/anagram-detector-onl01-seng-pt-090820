@@ -18,6 +18,7 @@ class Anagram
       match_array << word
 
     match_array
+  end
    end
 
 
