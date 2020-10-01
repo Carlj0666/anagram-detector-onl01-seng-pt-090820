@@ -25,3 +25,7 @@ class Anagram
  
   
 end
+
+	
+John Chriest A FEW SECONDS AGO
+We need to iterate over the array and select for any word that is the samesplit and sorted as the @name is split and sorted
