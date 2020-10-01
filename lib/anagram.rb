@@ -12,12 +12,12 @@ class Anagram
   
 
   def match(array)
-    binding.pry
-    new = array.join
-    new.split("").sort
-    
-    word
-    new.select!(word)
+    container = []
+    new_array = array.join.split("").sort
+    new_word = word.split("").sort
+    new_array.each do |letter, new_word|
+      if letter == new_word
+        
   end
 
  
