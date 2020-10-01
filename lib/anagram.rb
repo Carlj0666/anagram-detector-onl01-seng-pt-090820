@@ -13,7 +13,8 @@ class Anagram
 
   def match(array)
     container = []
-    new_array = array.join(" ").split(", ")
+    new_array = array.join(" ")
+    new_array.split(", ")
     new_word = word.split("").sort
             #binding.pry
     new_array.each do |current|
