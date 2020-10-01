@@ -18,6 +18,7 @@ class Anagram
       if anagram.select(new_word)
       match_array << new_word
     end
+    end
   end
 
  
