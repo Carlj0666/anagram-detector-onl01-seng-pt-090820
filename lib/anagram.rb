@@ -13,7 +13,7 @@ class Anagram
 
   def match(words)
     container = []
-    #binding.pry
+    binding.pry
     new_array = words.join(" ") 
     new_split_array = new_array.split.sort
     new_word = word.split("").sort
