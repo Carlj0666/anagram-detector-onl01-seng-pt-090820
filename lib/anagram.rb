@@ -15,14 +15,11 @@ class Anagram
     container = []
     binding.pry
     words.sort
+  
     new_word = word.split("").sort
             #binding.pry
-    new_split_array.each do |current|
-
-        container << current
-        
-    end
-    container
+    words.each do |check|
+      check.split
   end
 
  
