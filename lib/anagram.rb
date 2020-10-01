@@ -15,12 +15,12 @@ class Anagram
     container = []
     #binding.pry
     new_array = words.join(" ")
-    new_array.split
+    new_split_array = new_array.split
     new_word = word.split("").sort
             #binding.pry
-    new_array.each do |current|
+    new_split_array.each do |current|
       current.split("").sort
-      if new_word.select(current)
+      if current.select(new_word)
         container << current
         
     end
