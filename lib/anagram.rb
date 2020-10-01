@@ -17,6 +17,7 @@ class Anagram
     array.each do |anagram|
       if anagram.select(word)
       match_array << word
+      match_array
     end
     end
   end
