@@ -11,7 +11,7 @@ class Anagram
 
   
 
-  def match(words)
+  def match(array)
     container = []
     binding.pry
 
