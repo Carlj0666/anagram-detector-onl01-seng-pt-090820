@@ -15,7 +15,7 @@ class Anagram
     container = []
     binding.pry
 
-    word.split(" ").sort
+    word.split("").sort
             #binding.pry
     words.each do |check|
       check.split
