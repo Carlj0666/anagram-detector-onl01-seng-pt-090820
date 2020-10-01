@@ -11,9 +11,10 @@ class Anagram
 
   
 
-  def match(array)
+  def match(words)
     container = []
-    new_array = array.join(" ")
+    binding.pry
+    new_array = words.join(" ")
     new_array.split(", ")
     new_word = word.split("").sort
             #binding.pry
