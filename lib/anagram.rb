@@ -13,14 +13,8 @@ class Anagram
 
   def match(array)
     match_array = []
-     #binding.pry
-    if array.select(word.split("").sort) == word.split("").sort
-      match_array << word
-
-    match_array
+    
   end
-   end
-end
 
  
   
