@@ -13,9 +13,9 @@ class Anagram
 
   def match(array)
     match_array = []
-    
+    word = word.split("").sort
     array.each do |anagram|
-      if anagram.select(word.split("").sort)
+      if anagram.select(word)
       match_array << word
     end
     end
