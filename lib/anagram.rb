@@ -18,12 +18,12 @@ class Anagram
     split_word = word.split("").sort
             #binding.pry
     array.each do |check|
-      check.split
-      if check == new_word
+      check.split("")
+      if check.split("").sort == split_word
         container << check
-        container
       end
     end
+    container
   end
 
  
