@@ -17,7 +17,7 @@ class Anagram
     new_word = word.split("").sort
     new_array.each do |letter, new_word|
       if letter == new_word
-        
+        binding.pry
   end
 
  
