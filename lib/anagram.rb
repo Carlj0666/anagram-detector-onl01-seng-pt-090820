@@ -24,6 +24,7 @@ class Anagram
         container << check
         container
       end
+    end
   end
 
  
