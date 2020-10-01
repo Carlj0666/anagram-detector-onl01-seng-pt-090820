@@ -25,7 +25,6 @@ class Anagram
     end
     container
   end
-  end
 
  
   
