@@ -12,7 +12,9 @@ class Anagram
   
 
   def match(array)
-    
+    binding.pry
+    array.split("").sort
+    array.select!(word)
   end
 
  
