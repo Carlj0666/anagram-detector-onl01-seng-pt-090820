@@ -16,8 +16,9 @@ class Anagram
     #new_array = array.join.split("").sort
     new_word = word.split("").sort
             #binding.pry
-    array.each do |word|
-      if word.select(new_word)
+    array.each do |current|
+      current.split("").sort
+      if new_word.select(current)
     end
   end
   end
