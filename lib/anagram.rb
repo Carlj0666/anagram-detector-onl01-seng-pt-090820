@@ -13,7 +13,7 @@ class Anagram
 
   def match(array)
     match_array = []
-    
+    array.each do ||
   end
 
  
