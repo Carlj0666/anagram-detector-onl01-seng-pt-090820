@@ -13,9 +13,9 @@ class Anagram
 
   def match(array)
     match_array = []
-    new_word = word.split("").sort
+    
     array.each do |anagram|
-      if anagram.select(new_word)
+      if anagram.select(word.split("").sort)
       match_array << new_word
     end
     end
