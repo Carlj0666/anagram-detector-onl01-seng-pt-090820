@@ -18,7 +18,8 @@ class Anagram
             binding.pry
     new_array.each do |letter, new_word|
       if letter == new_word
-
+    end
+  end
   end
 
  
