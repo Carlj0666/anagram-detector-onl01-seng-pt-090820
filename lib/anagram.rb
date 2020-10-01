@@ -20,7 +20,7 @@ class Anagram
     match_array
   end
    end
-
+end
 
  
   
