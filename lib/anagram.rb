@@ -15,9 +15,9 @@ class Anagram
     container = []
     binding.pry
 
-    word.split("").sort
+    split_word = word.split("").sort
             #binding.pry
-    words.each do |check|
+    array.each do |check|
       check.split
       if check == new_word
         container << check
