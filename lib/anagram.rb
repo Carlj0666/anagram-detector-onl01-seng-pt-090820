@@ -20,6 +20,10 @@ class Anagram
             #binding.pry
     words.each do |check|
       check.split
+      if check == new_word
+        container << check
+        container
+      end
   end
 
  
