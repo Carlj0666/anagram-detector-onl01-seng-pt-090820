@@ -15,9 +15,10 @@ class Anagram
     container = []
     new_array = array.join.split("").sort
     new_word = word.split("").sort
+            binding.pry
     new_array.each do |letter, new_word|
       if letter == new_word
-        binding.pry
+
   end
 
  
