@@ -15,9 +15,10 @@ class Anagram
     match_array = []
      #binding.pry
     
-    array.sort == word.split("").sort
+    if array.sort == word.split("").sort
       match_array << word
       match_array
+    end
    end
 
  
